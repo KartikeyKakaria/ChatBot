@@ -6,8 +6,12 @@ body {
   }
 
   .chat-container {
-    max-width: 600px;
+    max-width:79%;
+    height:56vh;
     margin: 30px auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -38,7 +42,7 @@ body {
     padding: 8px;
     border: none;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 20px;
   }
 
   .user-input button {
