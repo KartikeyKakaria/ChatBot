@@ -2,7 +2,7 @@ const chatLog = document.getElementById('chat-log');
 const userInput = document.getElementById('user-input');
 const sendButton = document.getElementById('send-button');
 
-const GPT_API_URL = 'https://api.openai.com/v1/chat/completions'; // ChatGPT API endpoint
+const GPT_API_URL = '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'; // ChatGPT API endpoint
 const API_KEY = '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'; // Replace with your actual API key
 const MODEL_NAME = 'gpt-3.5-turbo'; // Specify the model name or ID
 
@@ -34,6 +34,7 @@ async function generateResponse(userMessage) {
     });
 
     const data = await response.json();
+    console.log(data)
     const chatbotReply = data.choices[0].message.content;
     return chatbotReply;
   } catch (error) {
