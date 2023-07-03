@@ -26,7 +26,7 @@ async function generateResponse(userMessage) {
       },
       body: JSON.stringify({
         messages: [
-          { role: 'system', content: 'You are a helpful assistant.' },
+          { role: 'system', content: 'You are a nice and helpful assistant.' },
           { role: 'user', content: userMessage }
         ],
         model: MODEL_NAME
