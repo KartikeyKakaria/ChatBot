@@ -3,7 +3,7 @@ const userInput = document.getElementById('user-input');
 const sendButton = document.getElementById('send-button');
 
 const GPT_API_URL = 'https://api.openai.com/v1/chat/completions'; // ChatGPT API endpoint
-const API_KEY = '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'; // Replace with your actual API key
+const API_KEY = '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'; // Replace with your actual API key
 const MODEL_NAME = 'gpt-3.5-turbo'; // Specify the model name or ID
 
 // Function to display a message in the chat log
